@@ -1,14 +1,29 @@
-git init - Tworzy repozytorium
+# 📘 Podstawowe komendy GIT
 
-#############################################################################
+```bash
+# 🔧 Inicjalizacja repozytorium
+git init
+# Tworzy nowe lokalne repozytorium Git w aktualnym folderze.
 
-git add . - Dodaje wszystkie pliki/foldery do systemu kontroli wersji w folderze aktualnie otwartym
+# ➕ Dodawanie plików do śledzenia
+git add .
+# Dodaje wszystkie pliki i foldery w bieżącym katalogu do systemu kontroli wersji.
 
-git commit -m "Nazwa comita" - Tworzymy commit ( naszą zmianę w projekcie ) i dodajemy nazwę comita (opis tego co zmieniliśmy)
+# 💬 Tworzenie commita
+git commit -m "Opis commita"
+# Tworzy commit, czyli zapis zmian, wraz z opisem tego, co zostało zmienione.
 
-git push - Przepychamy nasze zmiany do wersji internetowej
+# 🚀 Wysyłanie zmian do zdalnego repozytorium
+git push
+# Wysyła nasze lokalne zmiany do zdalnego repozytorium (np. GitHub).
 
-git clone https://github.com/MichalM31252/Repozytorium-Warsztat.git - kopiujemy repozytorium do aktualnego foldera
+# 📥 Klonowanie repozytorium
+git clone https://github.com/MichalM31252/Repozytorium-Warsztat.git
+# Pobiera całe repozytorium do aktualnego folderu lokalnego.
 
-#############################################################################
+# 🗑️ Usunięcie ostatniego commita
+git reset --hard HEAD~1
+# Usuwa ostatni commit i przywraca pliki do stanu sprzed niego.
 
+git push origin main --force
+# Wymusza aktualizację zdalnego repozytorium, aby odzwierciedlić lokalne zmiany.
