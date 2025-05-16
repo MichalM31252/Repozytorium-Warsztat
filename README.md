@@ -27,3 +27,11 @@ git reset --hard HEAD~1
 
 git push origin main --force
 # Wymusza aktualizację zdalnego repozytorium, aby odzwierciedlić lokalne zmiany.
+
+git branch -a
+# Wyświetla wszystkie dostępne branche, lokalne i zdalne
+
+git switch <branch-name>
+# Zmienia aktualnego brancha
+
+
