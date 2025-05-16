@@ -32,6 +32,11 @@ git branch -a
 # Wyświetla wszystkie dostępne branche, lokalne i zdalne
 
 git switch <branch-name>
-# Zmienia aktualnego brancha
+# Zmienia aktualnego lokalnego brancha
 
+git fetch
+# aktualizuje liste branchy
+
+git switch -t origin/<branch-name>
+# zmiana brancha jeżeli branch istnieje jedynie zdalnie
 
